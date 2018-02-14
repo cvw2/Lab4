@@ -71,7 +71,11 @@ public class Colosseum {
      *         <p>
      *         Implement this function.
      */
+
+
     public static Pokemon buildPokemon() {
+        Scanner myScan;
+        myScan = new Scanner(System.in);
         Pokemon tempPokemon = new Pokemon();
         return tempPokemon;
     }
